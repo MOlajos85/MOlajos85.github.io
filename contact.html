@@ -12,7 +12,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="/index.html">Olajos Máté</a>
+      <a class="navbar-brand" href="/index.html"></a>
       <button
         class="navbar-toggler"
         type="button"
@@ -43,5 +43,29 @@
         </ul>
       </div>
     </nav>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-6">
+          <form>
+            <h2 class="justify-content-center">Feliratkozás hírlevélre</h2>
+            <div class="form-group">
+              <label for="newsletName">Név:</label>
+              <input type="email" id="newsletName" class="form-control" />
+            </div>
+            <div class="form-group">
+              <label for="newsletEmail">E-mail cím:</label>
+              <input type="text" id="newsletEmail" class="form-control" />
+              <small id="newsletInfo" class="form-text text-muted"
+                >E-mail címét nem adjuk ki harmadik félnek.</small
+              >
+            </div>
+            <button type="submit" class="btn btn-warning btn-block">
+              Feliratkozás
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer></footer>
   </body>
 </html>

@@ -1,8 +1,12 @@
-* {
+/* html {
   background-color: #004225;
   color: #87968f;
 }
 
 nav {
   color: #87968f;
+} */
+
+.card {
+  padding: 10px;
 }

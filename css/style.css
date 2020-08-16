@@ -9,4 +9,9 @@ nav {
 
 .card {
   padding: 10px;
+  /* background-color: #ffd900; */
+}
+
+.btn-info {
+  background-color: #004225 !important;
 }
